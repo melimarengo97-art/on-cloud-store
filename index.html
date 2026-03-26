@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On Running Originales — Zapatillas On Cloud en Lima | Hasta 27% menos que tienda</title>
+<meta name="description" content="Zapatillas On Running originales a S/499. Roger Advantage Pro Clay, Cloud Surfer, Cloud Swift y más. Delivery en Lima. Escríbenos por WhatsApp.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👟</text></svg>">
+<meta property="og:title" content="On Running Originales — Zapatillas a S/499 en Lima">
+<meta property="og:description" content="Hasta 27% menos que en tienda. Modelos Roger Federer, Cloud Surfer, Cloud Swift. 100% originales.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --black: #0A0A0A;
+  --white: #FFFFFF;
+  --off-white: #F7F6F4;
+  --warm-gray: #E8E4DF;
+  --mid-gray: #9B9590;
+  --dark-gray: #5A5550;
+  --accent: #E85D2A;
+  --accent-hover: #D14E1E;
+  --green: #1B8C5A;
+  --green-light: #E6F5EE;
+  --gold: #C49A2A;
+
+  --font: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --radius: 12px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.1);
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { font-family: var(--font); background: var(--off-white); color: var(--black); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+img { max-width:100%; display:block; }
+a { text-decoration:none; color:inherit; }
+ul { list-style:none; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+.reveal { opacity:0; transform:translateY(28px); transition: opacity .7s cubic-bezier(.22,1,.36,1), transform .7s cubic-bezier(.22,1,.36,1); }
+.reveal.visible { opacity:1; transform:translateY(0); }
+.reveal-d1 { transition-delay:.1s } .reveal-d2 { transition-delay:.2s } .reveal-d3 { transition-delay:.3s }
+
+/* ═══ HEADER ═══ */
+header {
+  position: fixed; top:0; left:0; right:0; z-index:100;
+  background: rgba(247,246,244,0.88); backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0,0,0,0.04); transition: box-shadow .3s;
+}
+header.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.06); }
+.header-inner {
+  display: flex; align-items:center; justify-content:space-between;
+  height: 64px; max-width: 1100px; margin:0 auto; padding:0 24px;
+}
+.logo { display:flex; align-items:center; gap:8px; font-weight:800; font-size:18px; letter-spacing:-0.3px; }
+.logo-on { background:var(--black); color:var(--white); padding:3px 8px; border-radius:6px; font-size:14px; font-weight:900; letter-spacing:1px; }
+.nav-links { display:flex; align-items:center; gap:24px; }
+.nav-links a { font-size:14px; font-weight:500; color:var(--dark-gray); transition:color .2s; }
+.nav-links a:hover { color:var(--black); }
+.btn-wa {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--black); color:var(--white);
+  font-family:var(--font); font-weight:600; font-size:13px;
+  padding:10px 20px; border-radius:100px; border:none; cursor:pointer;
+  transition:all .25s; letter-spacing:.3px;
+}
+.btn-wa:hover { background:#25D366; transform:translateY(-1px); box-shadow:0 4px 16px rgba(37,211,102,.3); }
+.nav-toggle { display:none; background:none; border:none; cursor:pointer; padding:8px; }
+.nav-toggle span { display:block; width:20px; height:2px; background:var(--black); margin:4px 0; border-radius:2px; transition:all .3s; }
+
+/* ═══ HERO ═══ */
+.hero {
+  min-height: 100vh; display:flex; align-items:center;
+  padding: 100px 0 64px; position:relative; overflow:hidden;
+}
+.hero-bg {
+  position:absolute; inset:0; z-index:0;
+  background:
+    radial-gradient(ellipse 70% 50% at 75% 35%, rgba(232,93,42,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 10% 70%, rgba(196,154,42,0.04) 0%, transparent 50%),
+    var(--off-white);
+}
+.hero-content {
+  position:relative; z-index:1; max-width:1100px; margin:0 auto; padding:0 24px;
+  display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;
+}
+.hero-text { max-width:500px; }
+.hero-pill {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--green-light); border:1px solid rgba(27,140,90,0.15);
+  border-radius:100px; padding:6px 16px 6px 10px;
+  font-size:12px; font-weight:600; color:var(--green); margin-bottom:24px;
+}
+.hero-pill .dot { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+
+.hero h1 {
+  font-weight:900; font-size:clamp(38px,5.5vw,60px);
+  line-height:1.05; letter-spacing:-1.5px; margin-bottom:18px;
+}
+.hero h1 .serif { font-family:var(--font-serif); font-weight:700; font-style:italic; }
+.hero h1 .accent { color:var(--accent); }
+
+.hero-sub { font-size:17px; line-height:1.65; color:var(--dark-gray); margin-bottom:28px; }
+.hero-sub strong { color:var(--black); font-weight:600; }
+
+.hero-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:32px; }
+.hero-tag {
+  display:inline-flex; align-items:center; gap:5px;
+  background:var(--white); border:1px solid var(--warm-gray);
+  padding:6px 14px; border-radius:100px; font-size:12px; font-weight:600; color:var(--dark-gray);
+}
+
+.hero-actions { display:flex; gap:12px; flex-wrap:wrap; }
+.btn-primary {
+  display:inline-flex; align-items:center; gap:10px;
+  background:var(--accent); color:var(--white);
+  font-family:var(--font); font-weight:700; font-size:15px;
+  padding:16px 32px; border-radius:100px; border:none; cursor:pointer;
+  transition:all .25s; box-shadow: 0 4px 20px rgba(232,93,42,.3);
+}
+.btn-primary:hover { background:var(--accent-hover); transform:translateY(-2px); box-shadow:0 8px 28px rgba(232,93,42,.35); }
+.btn-outline {
+  display:inline-flex; align-items:center; gap:8px;
+  font-family:var(--font); font-weight:600; font-size:14px;
+  padding:14px 24px; border-radius:100px;
+  border:2px solid rgba(0,0,0,.1); background:transparent; cursor:pointer;
+  transition:all .25s; color:var(--black);
+}
+.btn-outline:hover { border-color:var(--black); background:rgba(0,0,0,.02); }
+
+/* Hero visual */
+.hero-visual { position:relative; display:flex; align-items:center; justify-content:center; }
+.shoe-display {
+  width:400px; height:400px; border-radius:50%;
+  background: linear-gradient(145deg, #E8E4DF 0%, #DDD8D2 50%, #D0C8BF 100%);
+  display:flex; align-items:center; justify-content:center;
+  position:relative; box-shadow: 0 20px 60px rgba(0,0,0,.08), inset 0 -2px 8px rgba(0,0,0,.04);
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+.shoe-display .shoe-emoji { font-size:160px; filter:drop-shadow(0 8px 20px rgba(0,0,0,.15)); transform:rotate(-15deg); }
+.price-tag {
+  position:absolute; bottom:30px; right:-10px;
+  background:var(--black); color:var(--white); padding:14px 20px; border-radius:16px;
+  box-shadow: var(--shadow-lg); text-align:center;
+  animation: float 6s ease-in-out infinite 1s;
+}
+.price-tag .label { font-size:10px; font-weight:600; text-transform:uppercase; letter-spacing:1.5px; color:var(--mid-gray); }
+.price-tag .amount { font-size:32px; font-weight:900; letter-spacing:-1px; }
+.price-tag .compare { font-size:11px; color:var(--mid-gray); text-decoration:line-through; }
+.badge-original {
+  position:absolute; top:20px; left:-15px;
+  background:var(--white); padding:10px 16px; border-radius:12px;
+  box-shadow: var(--shadow-lg); display:flex; align-items:center; gap:8px;
+  font-size:13px; font-weight:700; animation: float 6s ease-in-out infinite 2s;
+}
+.badge-original .check { color:var(--green); font-size:18px; }
+
+/* ═══ TRUST BAR ═══ */
+.trust-bar { padding:48px 0; border-bottom:1px solid var(--warm-gray); }
+.trust-grid { display:flex; justify-content:center; gap:48px; flex-wrap:wrap; }
+.trust-item { text-align:center; }
+.trust-item .icon { font-size:28px; margin-bottom:8px; }
+.trust-item .label { font-size:13px; font-weight:700; color:var(--black); }
+.trust-item .sub { font-size:12px; color:var(--mid-gray); margin-top:2px; }
+
+/* ═══ CATALOG ═══ */
+.catalog-section { padding:80px 0; }
+.section-head { text-align:center; margin-bottom:48px; }
+.section-tag {
+  display:inline-block; font-size:11px; font-weight:700;
+  text-transform:uppercase; letter-spacing:2.5px; color:var(--accent);
+  margin-bottom:10px;
+}
+.section-title { font-weight:900; font-size:clamp(28px,4vw,42px); letter-spacing:-1px; line-height:1.1; }
+.section-desc { font-size:16px; color:var(--dark-gray); margin-top:10px; max-width:520px; margin-left:auto; margin-right:auto; }
+
+.catalog-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:20px;
+}
+.product-card {
+  background:var(--white); border-radius:16px; overflow:hidden;
+  box-shadow:var(--shadow); border:1px solid rgba(0,0,0,.03);
+  transition:all .3s; cursor:pointer;
+}
+.product-card:hover { transform:translateY(-6px); box-shadow:var(--shadow-lg); }
+.product-img {
+  height:180px; position:relative; overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
+}
+.product-img .bg { position:absolute; inset:0; }
+.product-img .shoe { font-size:90px; position:relative; z-index:1; filter:drop-shadow(0 4px 10px rgba(0,0,0,.12)); }
+.product-badge {
+  position:absolute; top:12px; left:12px; z-index:2;
+  padding:4px 10px; border-radius:8px; font-size:10px; font-weight:700;
+  text-transform:uppercase; letter-spacing:.5px;
+}
+.badge-hot { background:var(--accent); color:var(--white); }
+.badge-roger { background:var(--gold); color:var(--white); }
+.badge-sale { background:var(--green); color:var(--white); }
+.product-save {
+  position:absolute; top:12px; right:12px; z-index:2;
+  background:var(--green-light); color:var(--green);
+  padding:4px 10px; border-radius:8px; font-size:11px; font-weight:700;
+}
+
+.product-body { padding:20px; }
+.product-body h3 { font-weight:700; font-size:16px; letter-spacing:-.3px; margin-bottom:4px; }
+.product-meta { display:flex; gap:6px; align-items:center; margin-bottom:6px; flex-wrap:wrap; }
+.meta-tag { font-size:11px; font-weight:600; padding:3px 8px; border-radius:6px; }
+.meta-m { background:#EBF4FF; color:#2563EB; }
+.meta-w { background:#FDF2F8; color:#DB2777; }
+.meta-talla { background:var(--off-white); color:var(--dark-gray); }
+.meta-dirty { background:#FEF3C7; color:#92400E; font-size:10px; }
+.product-desc { font-size:13px; color:var(--mid-gray); line-height:1.5; margin-bottom:14px; }
+
+.product-footer { display:flex; align-items:center; justify-content:space-between; }
+.product-prices { display:flex; align-items:baseline; gap:8px; }
+.product-retail { font-size:13px; color:var(--mid-gray); text-decoration:line-through; }
+.product-price { font-size:24px; font-weight:900; color:var(--black); letter-spacing:-1px; }
+.product-price .cur { font-size:13px; font-weight:700; }
+.btn-pedir {
+  display:inline-flex; align-items:center; gap:6px;
+  background:var(--black); color:var(--white);
+  font-family:var(--font); font-weight:600; font-size:12px;
+  padding:10px 18px; border-radius:100px; border:none; cursor:pointer;
+  transition:all .2s;
+}
+.btn-pedir:hover { background:#25D366; }
+
+/* ═══ WHY BUY ═══ */
+.why-section { padding:80px 0; }
+.why-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+.why-card {
+  background:var(--white); border-radius:16px; padding:32px 24px;
+  box-shadow:var(--shadow); border:1px solid rgba(0,0,0,.03); transition:all .3s;
+}
+.why-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-lg); }
+.why-icon { font-size:36px; margin-bottom:16px; }
+.why-card h3 { font-weight:700; font-size:17px; margin-bottom:6px; }
+.why-card p { font-size:14px; color:var(--dark-gray); line-height:1.6; }
+
+/* ═══ COMPARE ═══ */
+.compare-section { padding:0 0 80px; }
+.compare-box {
+  background:var(--black); color:var(--white); border-radius:20px;
+  padding:48px; position:relative; overflow:hidden;
+}
+.compare-box::before {
+  content:''; position:absolute; inset:0;
+  background: radial-gradient(circle at 80% 20%, rgba(232,93,42,.12) 0%, transparent 50%),
+              radial-gradient(circle at 10% 80%, rgba(196,154,42,.08) 0%, transparent 50%);
+}
+.compare-inner { position:relative; z-index:1; }
+.compare-inner h2 { font-weight:900; font-size:clamp(24px,3.5vw,36px); letter-spacing:-1px; margin-bottom:24px; }
+.compare-inner h2 .gold { color:var(--gold); }
+.compare-table { width:100%; border-collapse:collapse; font-size:14px; }
+.compare-table th { text-align:left; padding:12px 16px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--mid-gray); border-bottom:1px solid rgba(255,255,255,.08); }
+.compare-table td { padding:14px 16px; border-bottom:1px solid rgba(255,255,255,.05); }
+.compare-table .model { font-weight:700; }
+.compare-table .price-retail { color:var(--mid-gray); }
+.compare-table .price-you { color:var(--accent); font-weight:800; font-size:16px; }
+.compare-table .save { color:var(--green); font-weight:700; background:rgba(27,140,90,.15); padding:3px 10px; border-radius:6px; font-size:12px; }
+
+/* ═══ FAQ ═══ */
+.faq-section { padding:80px 0; }
+.faq-grid { max-width:700px; margin:0 auto; }
+.faq-item {
+  background:var(--white); border-radius:14px; margin-bottom:10px;
+  box-shadow:var(--shadow); border:1px solid rgba(0,0,0,.03); overflow:hidden;
+}
+.faq-q {
+  padding:20px 24px; font-weight:700; font-size:15px; cursor:pointer;
+  display:flex; justify-content:space-between; align-items:center;
+  transition:background .2s; user-select:none;
+}
+.faq-q:hover { background:rgba(0,0,0,.01); }
+.faq-q .arrow { font-size:18px; transition:transform .3s; color:var(--mid-gray); }
+.faq-item.open .faq-q .arrow { transform:rotate(180deg); }
+.faq-a { padding:0 24px; max-height:0; overflow:hidden; transition:all .35s ease; }
+.faq-item.open .faq-a { max-height:200px; padding:0 24px 20px; }
+.faq-a p { font-size:14px; color:var(--dark-gray); line-height:1.6; }
+
+/* ═══ CTA FINAL ═══ */
+.cta-section { padding:0 0 80px; }
+.cta-box {
+  background:var(--white); border-radius:20px; padding:56px 48px;
+  text-align:center; box-shadow:var(--shadow-lg); border:1px solid rgba(0,0,0,.03);
+}
+.cta-box h2 { font-weight:900; font-size:clamp(26px,4vw,40px); letter-spacing:-1px; margin-bottom:12px; }
+.cta-box h2 .accent { color:var(--accent); }
+.cta-box p { font-size:16px; color:var(--dark-gray); margin-bottom:28px; max-width:480px; margin-left:auto; margin-right:auto; }
+
+/* ═══ FOOTER ═══ */
+footer {
+  background:var(--black); color:var(--white); padding:48px 0 24px;
+}
+.footer-inner { display:flex; justify-content:space-between; align-items:start; flex-wrap:wrap; gap:32px; padding-bottom:32px; border-bottom:1px solid rgba(255,255,255,.06); }
+.footer-brand p { font-size:13px; color:rgba(255,255,255,.4); max-width:300px; margin-top:8px; line-height:1.5; }
+.footer-col h4 { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:rgba(255,255,255,.3); margin-bottom:12px; }
+.footer-col a { display:block; font-size:13px; color:rgba(255,255,255,.5); margin-bottom:8px; transition:color .2s; }
+.footer-col a:hover { color:var(--white); }
+.footer-bottom { text-align:center; padding-top:20px; font-size:11px; color:rgba(255,255,255,.25); }
+
+/* ═══ WHATSAPP FLOAT ═══ */
+.wa-float {
+  position:fixed; bottom:24px; right:24px; z-index:99;
+  width:60px; height:60px; border-radius:50%;
+  background:#25D366; color:white; display:flex; align-items:center; justify-content:center;
+  font-size:28px; box-shadow:0 4px 24px rgba(37,211,102,.45);
+  transition:all .3s; cursor:pointer; animation:wa-bounce 3s ease-in-out infinite;
+}
+.wa-float:hover { transform:scale(1.1); }
+@keyframes wa-bounce { 0%,100%{transform:translateY(0)} 15%{transform:translateY(-8px)} 30%{transform:translateY(0)} }
+.wa-float .tip {
+  position:absolute; right:70px; top:50%; transform:translateY(-50%);
+  background:var(--white); color:var(--black); padding:8px 14px; border-radius:10px;
+  font-size:13px; font-weight:600; white-space:nowrap; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:opacity .3s; font-family:var(--font);
+}
+.wa-float .tip::after { content:''; position:absolute; right:-6px; top:50%; transform:translateY(-50%); border:6px solid transparent; border-left-color:var(--white); }
+.wa-float:hover .tip { opacity:1; }
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width:900px) {
+  .nav-links { display:none; }
+  .nav-links.open {
+    display:flex; flex-direction:column; position:absolute;
+    top:64px; left:0; right:0; background:var(--off-white);
+    padding:16px 24px 24px; box-shadow:0 8px 20px rgba(0,0,0,.06);
+    gap:14px;
+  }
+  .nav-toggle { display:block; }
+  .hero-content { grid-template-columns:1fr; text-align:center; }
+  .hero-text { max-width:100%; }
+  .hero-sub { margin:0 auto 28px; }
+  .hero-tags { justify-content:center; }
+  .hero-actions { justify-content:center; }
+  .hero-visual { display:none; }
+  .why-grid { grid-template-columns:1fr; max-width:400px; margin:0 auto; }
+  .compare-box { padding:32px 20px; }
+  .compare-table { font-size:12px; }
+  .compare-table th, .compare-table td { padding:10px 8px; }
+  .footer-inner { flex-direction:column; }
+  .cta-box { padding:40px 24px; }
+}
+@media (max-width:480px) {
+  .hero h1 { font-size:32px; }
+  .btn-primary { width:100%; justify-content:center; }
+  .btn-outline { width:100%; justify-content:center; }
+  .catalog-grid { grid-template-columns:1fr; }
+  .trust-grid { gap:24px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="header-inner">
+    <a href="#" class="logo"><span class="logo-on">ON</span> Running Lima</a>
+    <nav class="nav-links" id="nav">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#precios">Precios</a>
+      <a href="#faq">Preguntas</a>
+      <a href="https://wa.me/51991740469?text=Hola!%20Vi%20tu%20página%20y%20me%20interesan%20las%20zapatillas%20On%20👟" target="_blank" rel="noopener" class="btn-wa">💬 Escríbeme</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-pill"><span class="dot"></span> Stock limitado — 50 pares disponibles</div>
+      <h1>Zapatillas <span class="serif">On Running</span> originales a precio <span class="accent">real.</span></h1>
+      <p class="hero-sub">La marca suiza que usan los runners de élite y que <strong>Roger Federer</strong> co-diseña. Modelos originales hasta <strong>27% menos</strong> que en tienda. Delivery en Lima.</p>
+      <div class="hero-tags">
+        <span class="hero-tag">✅ 100% originales</span>
+        <span class="hero-tag">🏷️ Desde S/499</span>
+        <span class="hero-tag">📦 Envío en Lima</span>
+        <span class="hero-tag">💳 Yape / Plin / Efectivo</span>
+      </div>
+      <div class="hero-actions">
+        <a href="https://wa.me/51991740469?text=Hola!%20Quiero%20ver%20las%20zapatillas%20On%20disponibles%20👟" class="btn-primary" target="_blank" rel="noopener">💬 Consultar por WhatsApp</a>
+        <a href="#catalogo" class="btn-outline">Ver catálogo →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="shoe-display">
+        <span class="shoe-emoji">👟</span>
+      </div>
+      <div class="price-tag">
+        <div class="label">Precio único</div>
+        <div class="amount">S/499</div>
+        <div class="compare">Tienda: S/559-679</div>
+      </div>
+      <div class="badge-original">
+        <span class="check">✓</span> 100% Original
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item"><div class="icon">🇨🇭</div><div class="label">Marca suiza</div><div class="sub">Ingeniería premium</div></div>
+      <div class="trust-item"><div class="icon">🏃</div><div class="label">Tecnología CloudTec®</div><div class="sub">Amortiguación patentada</div></div>
+      <div class="trust-item"><div class="icon">🎾</div><div class="label">Línea Roger Federer</div><div class="sub">Co-diseño exclusivo</div></div>
+      <div class="trust-item"><div class="icon">📦</div><div class="label">Delivery Lima</div><div class="sub">Coordinamos envío</div></div>
+      <div class="trust-item"><div class="icon">💯</div><div class="label">Originales</div><div class="sub">Garantía de autenticidad</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATÁLOGO -->
+<section class="catalog-section" id="catalogo">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">Catálogo disponible</div>
+      <h2 class="section-title">Modelos en stock</h2>
+      <p class="section-desc">Todos originales. Precio único S/499. Escríbeme por WhatsApp para apartar tu par.</p>
+    </div>
+    <div class="catalog-grid">
+
+      <!-- ROGER ADV PRO CLAY -->
+      <div class="product-card reveal">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#D4C8B8,#C4B8A6)"></div>
+          <span class="shoe">🎾</span>
+          <span class="product-badge badge-roger">🎾 Roger Federer</span>
+          <span class="product-save">-23% vs tienda</span>
+        </div>
+        <div class="product-body">
+          <h3>THE ROGER Advantage Pro Clay</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-w">Mujer</span>
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-talla">21 pares</span>
+          </div>
+          <p class="product-desc">Zapatilla de tenis para arcilla co-creada con Roger Federer. CloudTec® + Speedboard®. Tallas disponibles: 6.0 a 10.0</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">~S/650</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesa%20la%20Roger%20Advantage%20Pro%20Clay%20🎾%20¿Qué%20tallas%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLOUD SURFER NEXT -->
+      <div class="product-card reveal reveal-d1">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#B8C4D4,#A8B4C4)"></div>
+          <span class="shoe">🏃</span>
+          <span class="product-badge badge-hot">⚡ Running</span>
+          <span class="product-save">-11% vs tienda</span>
+        </div>
+        <div class="product-body">
+          <h3>Cloud Surfer Next</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-talla">6 pares</span>
+          </div>
+          <p class="product-desc">La nueva generación del Surfer. CloudTec Phase® para transiciones ultra suaves. Tallas: 9.0, 11.0 (×3), 12.0 (×2)</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">S/559</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesa%20el%20Cloud%20Surfer%20Next%20🏃%20¿Qué%20tallas%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLOUD SURFER 2 -->
+      <div class="product-card reveal reveal-d2">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#C8D4C8,#B4C4B4)"></div>
+          <span class="shoe">👟</span>
+          <span class="product-badge badge-hot">🏃 Running</span>
+          <span class="product-save">-21% vs tienda</span>
+        </div>
+        <div class="product-body">
+          <h3>Cloud Surfer 2</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-w">Mujer</span>
+            <span class="meta-tag meta-talla">6 pares</span>
+          </div>
+          <p class="product-desc">Cushioned daily trainer con CloudTec Phase®. Helion™ doble densidad. Tallas: 6.5W, 9.0M, 9.5M, 11.0M, 12.0M, 13.0M</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">S/629</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesa%20el%20Cloud%20Surfer%202%20👟%20¿Qué%20tallas%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CLOUD SWIFT 4 -->
+      <div class="product-card reveal">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#D4D0C8,#C4BEB4)"></div>
+          <span class="shoe">⚡</span>
+          <span class="product-badge badge-hot">🏃 Running</span>
+          <span class="product-save">-23% vs tienda</span>
+        </div>
+        <div class="product-body">
+          <h3>Cloud Swift 4</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-talla">4 pares</span>
+          </div>
+          <p class="product-desc">Diseñada para velocidad urbana. Helion™ superfoam + Speedboard®. Tallas: 9.5, 10.0 (×2), 12.0</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">S/649</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesa%20el%20Cloud%20Swift%204%20⚡%20¿Qué%20tallas%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROGER CLOUD HOUSE -->
+      <div class="product-card reveal reveal-d1">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#E0D4C4,#D0C4B4)"></div>
+          <span class="shoe">🎾</span>
+          <span class="product-badge badge-roger">🎾 Roger Federer</span>
+          <span class="product-save">-17% vs tienda</span>
+        </div>
+        <div class="product-body">
+          <h3>THE ROGER Cloud House</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-talla">3 pares</span>
+          </div>
+          <p class="product-desc">Lifestyle premium de la línea Roger Federer. Diseño elegante para uso diario. Tallas: 9.0, 9.5, 11.0</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">~S/600</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesa%20la%20Roger%20Cloud%20House%20🎾%20¿Qué%20tallas%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODELOS ÚNICOS -->
+      <div class="product-card reveal reveal-d2">
+        <div class="product-img">
+          <div class="bg" style="background:linear-gradient(135deg,#C8C0D4,#B8B0C4)"></div>
+          <span class="shoe">🔥</span>
+          <span class="product-badge badge-sale">✨ Varios modelos</span>
+        </div>
+        <div class="product-body">
+          <h3>Cloud 6 · Runner 2 · Monster 2 · Nova 2 · Flyer 5 · Flow 5</h3>
+          <div class="product-meta">
+            <span class="meta-tag meta-m">Hombre</span>
+            <span class="meta-tag meta-w">Mujer</span>
+            <span class="meta-tag meta-talla">8 pares</span>
+          </div>
+          <p class="product-desc">Modelos sueltos, un par por modelo. Cloud 6 (10M, 7W), Runner 2 (10M), Monster 2 (12M), Nova 2 (13M, 9.5M), Flyer 5 (10M), Flow 5 (9.5W)</p>
+          <div class="product-footer">
+            <div class="product-prices">
+              <span class="product-retail">S/559-679</span>
+              <span class="product-price"><span class="cur">S/</span>499</span>
+            </div>
+            <a href="https://wa.me/51991740469?text=Hola!%20Me%20interesan%20los%20modelos%20sueltos%20de%20On%20🔥%20¿Cuáles%20tienes?" class="btn-pedir" target="_blank" rel="noopener">Consultar →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ COMPRAR -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">¿Por qué aquí?</div>
+      <h2 class="section-title">Tu mejor opción en Lima</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">💰</div>
+        <h3>Hasta 27% menos que tienda</h3>
+        <p>En Falabella y Marathon estos modelos cuestan entre S/559 y S/679. Aquí todos van a S/499.</p>
+      </div>
+      <div class="why-card reveal reveal-d1">
+        <div class="why-icon">✅</div>
+        <h3>100% originales, cero riesgo</h3>
+        <p>Productos auténticos con etiquetas y caja original. Puedes verificar el código del modelo en on.com.</p>
+      </div>
+      <div class="why-card reveal reveal-d2">
+        <div class="why-icon">📱</div>
+        <h3>Compra fácil por WhatsApp</h3>
+        <p>Escríbeme, coordinamos talla, pagas por Yape/Plin/transferencia y te lo llevo o enviamos por courier.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARATIVA DE PRECIOS -->
+<section class="compare-section" id="precios">
+  <div class="container">
+    <div class="compare-box reveal">
+      <div class="compare-inner">
+        <h2>Compara precios y decide: <span class="gold">tú ahorras.</span></h2>
+        <div style="overflow-x:auto;">
+        <table class="compare-table">
+          <thead><tr><th>Modelo</th><th>Falabella / Marathon</th><th>Mi precio</th><th>Ahorras</th></tr></thead>
+          <tbody>
+            <tr><td class="model">THE ROGER Adv Pro Clay</td><td class="price-retail">~S/650</td><td class="price-you">S/499</td><td><span class="save">-23%</span></td></tr>
+            <tr><td class="model">Cloud Swift 4</td><td class="price-retail">S/649</td><td class="price-you">S/499</td><td><span class="save">-23%</span></td></tr>
+            <tr><td class="model">Cloud Surfer 2</td><td class="price-retail">S/629</td><td class="price-you">S/499</td><td><span class="save">-21%</span></td></tr>
+            <tr><td class="model">Cloud Runner 2</td><td class="price-retail">S/629</td><td class="price-you">S/499</td><td><span class="save">-21%</span></td></tr>
+            <tr><td class="model">Cloud Monster 2</td><td class="price-retail">S/679</td><td class="price-you">S/499</td><td><span class="save">-27%</span></td></tr>
+            <tr><td class="model">Cloud 6</td><td class="price-retail">S/559</td><td class="price-you">S/499</td><td><span class="save">-11%</span></td></tr>
+            <tr><td class="model">Cloud Surfer Next</td><td class="price-retail">S/559</td><td class="price-you">S/499</td><td><span class="save">-11%</span></td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">Preguntas frecuentes</div>
+      <h2 class="section-title">Lo que me preguntan siempre</h2>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item reveal"><div class="faq-q">¿Son originales? <span class="arrow">▾</span></div><div class="faq-a"><p>Sí, 100% originales con caja, etiquetas y código verificable en on.com. No vendo réplicas.</p></div></div>
+      <div class="faq-item reveal"><div class="faq-q">¿Por qué tan barato vs tienda? <span class="arrow">▾</span></div><div class="faq-a"><p>Tengo acceso a lotes a precio especial. No tengo tienda física, así que puedo trasladar ese ahorro directamente a ti.</p></div></div>
+      <div class="faq-item reveal"><div class="faq-q">¿Cómo pago? <span class="arrow">▾</span></div><div class="faq-a"><p>Acepto Yape, Plin, transferencia bancaria o efectivo contra entrega en punto de encuentro en Lima.</p></div></div>
+      <div class="faq-item reveal"><div class="faq-q">¿Hacen envíos a provincia? <span class="arrow">▾</span></div><div class="faq-a"><p>Sí, por Olva Courier o Shalom. El costo de envío va por cuenta del comprador (~S/15-25 según destino).</p></div></div>
+      <div class="faq-item reveal"><div class="faq-q">¿Puedo probármelas antes de pagar? <span class="arrow">▾</span></div><div class="faq-a"><p>Sí, coordinamos un punto de encuentro en Lima donde puedes ver y probar las zapatillas antes de comprar.</p></div></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box reveal">
+      <h2>¿Encontraste tu <span class="accent">modelo</span>?</h2>
+      <p>Escríbeme por WhatsApp, te confirmo talla y disponibilidad al toque. Stock limitado — cuando se acaba, se acaba.</p>
+      <a href="https://wa.me/51991740469?text=Hola!%20Vi%20tu%20catálogo%20y%20me%20interesan%20las%20zapatillas%20On%20👟" class="btn-primary" target="_blank" rel="noopener">💬 Escribir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-on">ON</span> Running Lima</div>
+        <p>Zapatillas On Running originales a precio justo. Venta directa en Lima, Perú. No somos tienda oficial — somos tu mejor opción de precio.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Modelos</h4>
+        <a href="#catalogo">Roger Adv Pro Clay</a>
+        <a href="#catalogo">Cloud Surfer Next</a>
+        <a href="#catalogo">Cloud Swift 4</a>
+        <a href="#catalogo">Cloud Surfer 2</a>
+        <a href="#catalogo">Más modelos</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="https://wa.me/51991740469" target="_blank">💬 WhatsApp</a>
+        <a href="#">📍 Lima, Perú</a>
+        <a href="#">📸 Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 · Venta de zapatillas On Running originales en Lima · No afiliado a On AG</div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/51991740469?text=Hola!%20Vi%20tu%20página%20de%20On%20Running%20👟" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬<span class="tip">¿Te interesa algún modelo?</span></a>
+
+<!-- SCRIPTS -->
+<script>
+const header=document.getElementById('header');
+window.addEventListener('scroll',()=>header.classList.toggle('scrolled',window.scrollY>20));
+
+const navToggle=document.getElementById('navToggle'),nav=document.getElementById('nav');
+navToggle.addEventListener('click',()=>{
+  nav.classList.toggle('open');
+  const s=navToggle.querySelectorAll('span');
+  if(nav.classList.contains('open')){s[0].style.transform='rotate(45deg) translate(5px,5px)';s[1].style.opacity='0';s[2].style.transform='rotate(-45deg) translate(5px,-5px)';}
+  else{s[0].style.transform='';s[1].style.opacity='1';s[2].style.transform='';}
+});
+nav.querySelectorAll('a').forEach(l=>l.addEventListener('click',()=>{nav.classList.remove('open');const s=navToggle.querySelectorAll('span');s[0].style.transform='';s[1].style.opacity='1';s[2].style.transform='';}));
+
+document.querySelectorAll('.reveal').forEach(el=>new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -40px 0px'}).observe(el));
+
+document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{const item=q.parentElement;document.querySelectorAll('.faq-item').forEach(i=>{if(i!==item)i.classList.remove('open')});item.classList.toggle('open')}));
+</script>
+</body>
+</html>
